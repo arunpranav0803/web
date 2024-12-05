@@ -1,0 +1,330 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  ;
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    
+}
+.navbar {
+    display: flex;
+    background-color:  ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* position: sticky;
+    top: 0px; */
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    
+    color:  #c1b75d;
+}
+.logo::first-letter{
+    color: #e88300;
+    font-size: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.navbar .logo {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: white;
+}
+#ser::first-letter{
+    
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ser{
+    margin-right: 200px;
+     font-size: 25px;
+}
+#img{
+    height: 1000px;
+    width: 100vw;
+    background-color: red;
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/24/00/16/car-2255161_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 2350px 100%;
+}
+#b{
+    position: relative;
+    top: 600px;
+}
+#slo{
+    color: rgb(255, 255, 255);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    position: absolute;
+   top: 200px;
+   white-space: pre-wrap;
+}
+
+#wor{
+    color: rgb(255, 255, 255);
+    font-family: f;
+    position: absolute;
+    top: 450px;
+    text-align: justify;
+    font-size: 50px;
+    white-space: pre-wrap;
+}
+#but{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#e88300;
+    color: rgb(0, 0, 0);
+   
+    font-size: 26px;
+    cursor: pointer;
+    
+}
+.form-container {
+    height: 350px;
+    width: 990px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -150px;
+   
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.form-group {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.form-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.form-button {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e88300;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: 26px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+#but:hover{
+    background-color: #e8d847;
+}
+
+.form-button:hover {
+    background-color:#e8d847;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.card {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover{
+    background-color:#f6bf78;
+}
+.card-icon {
+    font-size: 150px;
+    margin-bottom: 15px;
+}
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+.card-description {
+    font-size: 24px;
+    color: #282727;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+ .car-detail {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            
+            width: 100%;
+        }
+        .car-detail img {
+            width: 60%;
+            object-fit: cover;
+        }
+        .car-detail-content {
+            padding: 20px;
+            flex: 1;
+        }
+        .car-detail-content h2 {
+            font-size: 54px;
+            margin-bottom: 25px;
+            color: #e88300;
+        }
+        .car-detail-content p {
+            font-size: 24px;
+            text-align: justify;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .car-detail-content .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:#e88300;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .car-detail-content .btn:hover {
+            background-color: #c1b75d;
+        }
+
+
+#t{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+#t::first-line{
+    font-size: 60px;
+    color: #dd8109;
+}
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+/* .car-card:hover{
+    background-color: #c1b75d;
+} */
+.car-card {
+    border: 5px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.car-card img {
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+}
+.car-details {
+    margin: 10px 0;
+}
+.car-card p{
+    color: rgb(98, 93, 93);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.car-card h3{
+    
+    font-size: 30px;
+}
+#u{
+    height: 150px;
+}
+.footer {
+    height: 500px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 10px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-col {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+.footer-col h3 {
+    color: #e58302 ;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.footer-col p {
+    font-size: 25px;
+   
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    font-size: 25px;
+    color: #ffffff;
+   
+}
+
+.footer .newsletter {
+    display: flex;
+    flex-direction: column;
+}
+.footer .newsletter input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.footer .newsletter button {
+    padding: 10px;
+    border: none;
+    background-color: #e88300;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer .newsletter button:hover {
+    background-color:#e4a450;
+}
